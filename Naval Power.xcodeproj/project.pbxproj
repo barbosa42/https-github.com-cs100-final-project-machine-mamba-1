@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88737EBD248E92280036F2E7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88737EBA248E92270036F2E7 /* main.cpp */; };
 		88F5C3F9248E907E0066B354 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88F5C3F8248E907E0066B354 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		88737EAE248E92270036F2E7 /* Type_001_Class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Type_001_Class.h; path = "../../Naval Forces/Naval Forces_test/Type_001_Class.h"; sourceTree = "<group>"; };
+		88737EAF248E92270036F2E7 /* AB_Class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AB_Class.h; path = "../../Naval Forces/Naval Forces_test/AB_Class.h"; sourceTree = "<group>"; };
+		88737EB0248E92270036F2E7 /* T_Class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = T_Class.h; path = "../../Naval Forces/Naval Forces_test/T_Class.h"; sourceTree = "<group>"; };
+		88737EB1248E92270036F2E7 /* USN_Visitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = USN_Visitor.h; path = "../../Naval Forces/Naval Forces_test/USN_Visitor.h"; sourceTree = "<group>"; };
+		88737EB2248E92270036F2E7 /* Type_054A_Class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Type_054A_Class.h; path = "../../Naval Forces/Naval Forces_test/Type_054A_Class.h"; sourceTree = "<group>"; };
+		88737EB3248E92270036F2E7 /* USN_Fleet_Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = USN_Fleet_Factory.h; path = "../../Naval Forces/Naval Forces_test/USN_Fleet_Factory.h"; sourceTree = "<group>"; };
+		88737EB4248E92270036F2E7 /* PLAN_Visitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLAN_Visitor.h; path = "../../Naval Forces/Naval Forces_test/PLAN_Visitor.h"; sourceTree = "<group>"; };
+		88737EB5248E92270036F2E7 /* GF_Class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GF_Class.h; path = "../../Naval Forces/Naval Forces_test/GF_Class.h"; sourceTree = "<group>"; };
+		88737EB6248E92270036F2E7 /* USN_Ship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = USN_Ship.h; path = "../../Naval Forces/Naval Forces_test/USN_Ship.h"; sourceTree = "<group>"; };
+		88737EB7248E92270036F2E7 /* Type_052D_Class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Type_052D_Class.h; path = "../../Naval Forces/Naval Forces_test/Type_052D_Class.h"; sourceTree = "<group>"; };
+		88737EB8248E92270036F2E7 /* Type_055_Class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Type_055_Class.h; path = "../../Naval Forces/Naval Forces_test/Type_055_Class.h"; sourceTree = "<group>"; };
+		88737EB9248E92270036F2E7 /* WH_Class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WH_Class.h; path = "../../Naval Forces/Naval Forces_test/WH_Class.h"; sourceTree = "<group>"; };
+		88737EBA248E92270036F2E7 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "../../Naval Forces/Naval Forces_test/main.cpp"; sourceTree = "<group>"; };
+		88737EBB248E92280036F2E7 /* PLAN_Ship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLAN_Ship.h; path = "../../Naval Forces/Naval Forces_test/PLAN_Ship.h"; sourceTree = "<group>"; };
+		88737EBC248E92280036F2E7 /* PLAN_Fleet_Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLAN_Fleet_Factory.h; path = "../../Naval Forces/Naval Forces_test/PLAN_Fleet_Factory.h"; sourceTree = "<group>"; };
 		88F5C3F5248E907E0066B354 /* Naval Power */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Naval Power"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88F5C3F8248E907E0066B354 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,6 +73,21 @@
 		88F5C3F7248E907E0066B354 /* Naval Power */ = {
 			isa = PBXGroup;
 			children = (
+				88737EBA248E92270036F2E7 /* main.cpp */,
+				88737EB6248E92270036F2E7 /* USN_Ship.h */,
+				88737EBB248E92280036F2E7 /* PLAN_Ship.h */,
+				88737EB5248E92270036F2E7 /* GF_Class.h */,
+				88737EB0248E92270036F2E7 /* T_Class.h */,
+				88737EAF248E92270036F2E7 /* AB_Class.h */,
+				88737EB9248E92270036F2E7 /* WH_Class.h */,
+				88737EAE248E92270036F2E7 /* Type_001_Class.h */,
+				88737EB8248E92270036F2E7 /* Type_055_Class.h */,
+				88737EB7248E92270036F2E7 /* Type_052D_Class.h */,
+				88737EB2248E92270036F2E7 /* Type_054A_Class.h */,
+				88737EB3248E92270036F2E7 /* USN_Fleet_Factory.h */,
+				88737EBC248E92280036F2E7 /* PLAN_Fleet_Factory.h */,
+				88737EB1248E92270036F2E7 /* USN_Visitor.h */,
+				88737EB4248E92270036F2E7 /* PLAN_Visitor.h */,
 				88F5C3F8248E907E0066B354 /* main.cpp */,
 			);
 			path = "Naval Power";
@@ -119,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88737EBD248E92280036F2E7 /* main.cpp in Sources */,
 				88F5C3F9248E907E0066B354 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
